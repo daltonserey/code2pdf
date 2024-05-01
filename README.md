@@ -29,3 +29,16 @@ O `Makefile` que incluí roda o pandoc pra gerar um PDF deste
 arquivo, incluindo dois arquivos do código fonte do OpenJDK.
 Abaixo você vê como é a sintaxe pra incluir os arquivos (vê
 que o `include` suporta três parâmetros auto-explicativos).
+
+## Alternativa pra Gerar o PDF (sem LaTeX)
+
+Uma alternativa pra gerar o PDF que não o deixa com a _cara_ de
+$\LaTeX$, é gerar um HTML com o pandoc e dele gerar o PDF a partir de
+outras
+ferramentas. Pode ser do próprio browser ou de alguma outra ferramenta
+de linha de comando como o
+[wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf)),
+por exemplo.
+
+Adicionei uma receita no `Makefile` para mostrar como fazer
+isso como `wkhtmltopdf` que gera o `source2.pdf` dessa forma.
