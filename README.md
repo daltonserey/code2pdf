@@ -33,12 +33,19 @@ que o `include` suporta três parâmetros auto-explicativos).
 ## Alternativa pra Gerar o PDF (sem LaTeX)
 
 Uma alternativa pra gerar o PDF que não o deixa com a _cara_ de
-$\LaTeX$, é gerar um HTML com o pandoc e dele gerar o PDF a partir de
-outras
-ferramentas. Pode ser do próprio browser ou de alguma outra ferramenta
-de linha de comando como o
-[wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf)),
-por exemplo.
+$\LaTeX$, é gerar um HTML com o pandoc e dele gerar o PDF a
+partir de outras ferramentas. Pode ser do próprio browser ou de
+alguma outra ferramenta de linha de comando como o
+[wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf)), por
+exemplo.
 
 Adicionei uma receita no `Makefile` para mostrar como fazer
 isso como `wkhtmltopdf` que gera o `source2.pdf` dessa forma.
+
+> Só depois de adicionar a receita acima, descobri que a
+> ferramenta padrão que o pandoc usa para gerar html é exatamente
+> o `wkhtmltopdf`. Logo, se ela estiver instalada no sistema, e
+> se usar a opção `--to html` combinada com `--output <algo>.pdf`
+> o pandoc irá fazer a conversão para html e gerar o arquivo de
+> saída em pdf com o `wkhtmltopdf`. Claramente, esta é uma forma
+> mais simples de produzir o PDF diretamente através do pandoc.

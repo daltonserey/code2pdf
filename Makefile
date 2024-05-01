@@ -4,6 +4,7 @@ build: source.pdf source2.pdf
 
 source.pdf: java_source/*.java
 	pandoc \
+        --to html \
 		--lua-filter=${FILTER} \
 		--output source.pdf \
 		source.md
