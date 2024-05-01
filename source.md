@@ -22,5 +22,5 @@ Por fim, colocar o arquivo completo é o mais simples. Contudo,
 é importante olhar como resolver o caso de linhas muito
 longas.
 
-```{include="java_source/Collections.java" .java}
+```{include="java_source/Collections.java" .java .numberLines}
 ```

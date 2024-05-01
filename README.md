@@ -1,4 +1,8 @@
-# PDF de código fonte com Pandoc (opt2)
+# Como gerar PDF de código fonte com Pandoc?
+
+> Veja abaixo uma alternativa em que o pandoc usa HTML como
+> formato intermediário ao invés de $\LaTeX$, como a primeira
+> ideia abaixo.
 
 Pra gerar PDF, o pandoc usa as ferramentas de $\LaTeX$,
 por isso tem que ter o `texlive-latex-base` e, provavelmente, o
