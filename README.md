@@ -1,12 +1,12 @@
 # PDF de código fonte com Pandoc (opt2)
 
-Pra gerar PDF, o pandoc usa as ferramentas de $\text{\LaTeX}$,
+Pra gerar PDF, o pandoc usa as ferramentas de $\LaTeX$,
 por isso tem que ter o `texlive-latex-base` e, provavelmente, o
 `texlive-fontes-recommended` instalados (esses pacotes são
 instaláveis facilmente via gerenciadores de pacotes na maioria
 dos Linux e também com o `brew` no MacOs).
 
-Além de $\text{\LaTeX}$, você precisa de um filtro pandoc para
+Além de $\LaTeX$, você precisa de um filtro pandoc para
 adicionar o `include` que não é nativo do Markdown do pandoc. Pra
 isso, eu uso um filtro bem, bem simples mesmo escrito em Lua que
 é parte de um pacote maior de filtros
