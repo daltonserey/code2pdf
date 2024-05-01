@@ -23,7 +23,7 @@ Em resumo. Você precisa instalar:
 - o `pandoc` propriamente dito;
 - o `texlive-latex-base`;
 - o `texlive-fonts-recommended`; e
-- usar o script `include-code-files.lua`
+- usar o script `include-code-files.lua` (que tá neste repo)
 
 O `Makefile` que incluí roda o pandoc pra gerar um PDF deste
 arquivo, incluindo dois arquivos do código fonte do OpenJDK.
