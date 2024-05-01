@@ -2,7 +2,7 @@
 
 Pra gerar PDF, o pandoc usa as ferramentas de $\LaTeX$,
 por isso tem que ter o `texlive-latex-base` e, provavelmente, o
-`texlive-fontes-recommended` instalados (esses pacotes são
+`texlive-fonts-recommended` instalados (esses pacotes são
 instaláveis facilmente via gerenciadores de pacotes na maioria
 dos Linux e também com o `brew` no MacOs).
 
