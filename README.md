@@ -8,9 +8,9 @@ dos Linux e também com o `brew` no MacOs).
 
 Além de $\LaTeX$, você precisa de um filtro pandoc para
 adicionar o `include` que não é nativo do Markdown do pandoc. Pra
-isso, eu uso um filtro bem, bem simples mesmo escrito em Lua que
+isso, eu usaria um filtro bem, bem simples mesmo escrito em Lua que
 é parte de um pacote maior de filtros
-(https://github.com/pandoc/lua-filters).  Prefiro esse filtro,
+(https://github.com/pandoc/lua-filters).  Preferiria esse filtro,
 porque é um único arquivo com menos de 100 linhas que pode ficar
 junto com o `Makefile` (incluí ele aí, por sinal).
 
