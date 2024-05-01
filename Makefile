@@ -1,11 +1,10 @@
 FILTER=include-code-files.lua
 
-source.pdf: Collections.java source.md
+source.pdf: java_source/*.java
 	pandoc \
 		--lua-filter=${FILTER} \
 		--output source.pdf \
 		source.md
-	cp source.pdf /var/www/html/
 
 clean:
 	rm -f source.pdf
